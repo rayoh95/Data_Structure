@@ -24,7 +24,7 @@
   * 작고 가볍다.
   * 단순한다.
 
-##### 배열이란 메모리를 적게 사용하며 속도가 빠른 부품으로서의데이터 스트럭쳐이다.
+##### 배열이란 메모리를 적게 사용하며 속도가 빠른 부품으로서의 데이터 스트럭쳐이다.
 
 
 
@@ -90,6 +90,64 @@ array[3] = 50 을 하면 [10, 20, 30, 50] 이 된다.
 
 
 
+##### `JAVA` Array List  사용법
 
+* 자체적인 라이브러리 안에 Array List 데이터 스트럭쳐를 내장하고 있다. - 직접 구현할 필요가 없다.
 
- 
+* 사용법
+
+  * 생성
+
+  ```java
+  import java.util.ArrayList;
+  
+  public class Main {
+    public static void main(String[] args) {
+      
+      ArrayList<> variable = new ArrayList<>();
+    }
+  }
+  ```
+
+  * 추가
+
+  ```java
+  variable.add(value);
+  variable.add(index, value);	// ArrayList 의 특정 index 에 value 삽입
+  ```
+
+  * 삭제
+
+  ```java
+  variable.remove(index);	// index 에 있는 값을 삭제.
+  ```
+
+  * 가져오
+
+  ````java
+  variable.get(index);	// index 에 있는 값을 반환
+  ````
+
+  * 크기
+
+  ```java
+  variable.size();	// ArrayList 의 크기를 반환
+  ```
+
+* ##### Iteration
+
+```java
+Iterator it = variable.iterator();
+// Iterator 데이터 타입은 java 의 인터페이스다. (Iterator 객체)
+while(it.hasNext()) {
+  int value = it.next();		// ArrayList<Integer> 이라고 가정.
+}
+```
+
+```java
+for(int value : variable) {
+  System.out.println(value);
+}
+// 자바의 향상된 for문. 파이썬의 for 문과 유사.
+```
+
