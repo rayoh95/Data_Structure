@@ -1,0 +1,16 @@
+package list.arraylist.implementation;
+
+public class ArrayList {
+	
+	private int size = 0;	// 리스트의 크기를 담을 변수
+	// 객체 내부적으로 사용할 배열이므로 외부에 노출되지 않도록 private 을 선언
+	private Object[] elementData = new Object[100];
+	
+	public boolean addLast(Object element) {
+		
+		elementData[size] = element;
+		size++;
+		return true;
+	}
+	
+}
