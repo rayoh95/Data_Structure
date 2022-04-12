@@ -12,7 +12,7 @@ class LinkedList {
         // 다음 노드를 가리키는 필드
         private Node next;
         
-        // Node 객체 초기화
+        // Node 객체 초기
         public Node(Object input) {
             this.data = input;
             this.next = null;
