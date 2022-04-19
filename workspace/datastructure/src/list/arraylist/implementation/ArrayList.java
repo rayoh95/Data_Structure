@@ -72,7 +72,7 @@ public class ArrayList {
 	}
 	
 	
-	class ListIterator {
+	public class ListIterator {
 		
 		private int nextIndex = 0;
 		
