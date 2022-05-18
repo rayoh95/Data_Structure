@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="list.linkedlist.implementation.LinkedList.ListIterator"/>
+    <fullyQualifiedTypeName name="list.arraylist.implementation.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="stack.StackAlgorithm"/>
+    <fullyQualifiedTypeName name="queue.MyCircularQueue"/>
+    <fullyQualifiedTypeName name="java.nio.channels.IllegalSelectorException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+    <fullyQualifiedTypeName name="hashTable.MyLinkedHashTable"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.Node"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="bubbleSort.ISort"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
 </qualifiedTypeNameHistroy>
